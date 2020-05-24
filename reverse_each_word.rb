@@ -2,7 +2,7 @@ def reverse_each_word(sentence)
   words = sentence.split(" ")
   reverse_sentence = []
 words.each do |word|
-  new_array << inreverse.reverse
+  reverse_sentence << word.reverse
 end
-  new_array
+  reverse_sentence
 end
